@@ -1,0 +1,381 @@
+/* ==================== R E S E T  B A S I C O ====================*/
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #F0F0F0;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul li {
+	list-style: none;
+}
+
+a:hover {
+	color: red;
+}
+
+
+
+/* ==================== M E N U  T O P O ==================== */
+#container_topo {
+	height: 80px;
+	width: 100%;
+	background-color: #1f1f1f;
+	color: white;
+}
+
+#logotipo_topo {
+	height: 70px;
+	width: 200px;
+	margin-top: 7px;
+	margin-left: 20px;
+	float: left;
+	-webkit-transition: width 0.2s, height 0.2s, -webkit-transform 0.2s; /*Chrome*/
+	transition: width 0.2s, height 0.2s, transform 0.2s; /*Firefox e Internet Explorer*/
+}
+
+#logotipo_topo:hover {
+	height: 85px;
+	width: 240px;
+}
+
+ul#lista_topo > li {
+	float: left; /*Para os links do menu ficarem alinhados horizontalmente*/
+	margin-top: 40px;
+	margin-left: 20px;
+	color: white;
+}
+
+.link_topo {
+	height: 40px;
+	width: 130px;
+	text-align: center;
+	font-family: "Impact";
+	font-size: 18px;
+	-webkit-transition: font-size 0.2s, -webkit-transform 0.2s; /*Chrome*/
+	transition: width 0.2s, height 0.2s, transform 0.2s; /*Firefox e Internet Explorer*/
+}
+
+.link_topo:hover {
+	font-size: 20px;
+}
+
+#redes_topo {
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.redes {
+	height: 70px;
+	width: 70px;
+	-webkit-transition: width 0.2s, height 0.2s,-webkit-transform 0.2s; /*Chrome*/
+	transition: width 0.2s, height 0.2s, transform 0.2s; /*Firefox e Internet Explorer*/
+}
+
+.redes:hover {
+	height: 80px;
+	width: 80px; 
+}
+
+
+
+/* ==================== C O N T E U D O  P R I N C I P A L ==================== */
+#container_principal {
+	height: 500px;
+	width: 80%;
+	margin: 0 auto; 
+	margin-top: 40px;
+	margin-bottom: 40px;
+	background-color: white;
+	box-shadow: 0px 0px 20px 0px #888888;
+}
+
+/*========== HOME ==========*/
+#menu_esquerda {
+	height: 90%;
+	width: 20%;
+	margin-top: 22px;
+	margin-left: 5px;
+	padding-left: 5px;
+	padding-right: 15px;
+	float: left;
+	text-align: justify;
+	border-right: 3px solid #D8D8D8;
+	font-family: 'Tahoma';
+	font-size: 14px;
+}
+
+#menu_esquerda h2 {
+	text-align: center;
+}
+
+#index1 {
+	height: 135px;
+	width: 160px;
+	margin-top: 27px;
+	margin-left: 18px;
+}
+
+#conteudo_principal {
+	height: 85%;
+	width: 40%;
+	margin-left: 250px;
+	padding-top: 10px;
+	padding-left: 2px;
+	position: absolute;
+	text-align: justify;
+	font-family: 'Tahoma';
+	font-size: 17px;
+}
+
+#conteudo_principal h1 {
+	text-align: center;	
+}
+
+#index2 {
+	height: 170px;
+	width: 350px;
+	margin-top: 70px;
+	margin-left: 70px;
+}
+
+#menu_direita {
+	height: 90%;
+	width: 20%;
+	margin-top: 20px;
+	margin-right: 5px;
+	padding-left: 15px;
+	padding-right: 5px;
+	float: right;
+	text-align: justify;
+	border-left: 3px solid #D8D8D8;
+	font-family: 'Tahoma';
+	font-size: 14px;
+}
+
+#menu_direita h2 {
+	text-align: center;
+}
+
+#index3 {
+	height: 135px;
+	width: 160px;
+	margin-top: 10px;
+	margin-left: 18px;
+}
+
+/*========== IMAGENS ==========*/
+#container_imagens {
+	height: 100%;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.fotos {
+	height: 120px;
+	width: 180px;
+	margin-top: 30px;
+	margin-left: 85px;
+	box-shadow: 6px 6px 5px 0px #888888;
+	-webkit-transition: width 0.2s, height 0.2s,-webkit-transform 0.2s; /*Chrome*/
+	transition: width 0.2s, height 0.2s, transform 0.2s; /*Firefox e Internet Explorer*/
+}
+
+#container1 .fotos:hover {
+	height: 160px;
+	width: 340px;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+#container2 .fotos:hover {
+	height: 160px;
+	width: 340px;
+	margin-top: 10px;
+	margin-left: 15px;	
+}
+
+#container3 .fotos:hover {
+	height: 160px;
+	width: 340px;
+	margin-top: 10px;
+	margin-left: 15px;	
+}
+
+/*========== VIDEOS ==========*/
+#video_container {
+	float: left;
+	height: 390px;
+	width: 480px;
+	margin-top: 60px;
+	margin-left: 80px;
+	font-family: 'Tahoma';
+	font-size: 20px;
+}
+
+#controles {
+	margin-top: 5px;
+	height: 30px;
+	width: 480px;
+	background: black;
+}
+
+#play {
+	float: left;
+	height: 30px;
+	width: 50px;
+}
+
+#default_bar {
+	float: left;
+	height: 10px;
+	width: 405px;
+	margin-top: 10px;
+	border-radius: 10px;
+	background: white;
+}
+
+#progress_bar {
+	position: absolute;
+	height: 6px;
+	width: 60px;
+	margin-top: 2px;
+	margin-left: 3px;
+	background: red;
+}
+
+#videos_direita {
+	float: right;
+	height: 500px;
+	width: 300px;
+	margin-right: 60px;
+}
+
+.videos_direita {
+	margin-top: 45px;
+	padding: 5px;
+}
+
+/*========== CONTATO ==========*/
+#container_contato {
+	padding-top: 35px;
+	padding-left: 60px;
+	font-family: 'Tahoma';
+	font-size: 20px;
+}
+
+#dados {
+	height: 200px;
+	width: 890px;
+}
+
+#img_contato {
+	height: 250px;
+	width: 250px;
+	float: right;
+	margin-right: 60px;
+}
+
+input[type="text"] {
+	height: 30px;
+	width: 400px;
+}
+
+.botao {
+	height: 30px;
+	width: 100px;
+}
+
+#input_nome {
+	margin-left: 30px;
+}
+
+#input_email {
+	margin-left: 33px;
+}
+
+#input_assunto {
+	margin-left: 12px;
+}
+
+.msg_form {
+	text-align: center;
+	font-family: 'Tahoma';
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+
+
+/* ==================== M A P A  E  R O D A P E ==================== */
+#container_mapa {
+	height: 260px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #1f1f1f;
+	color: white;
+}
+
+#mapa_esquerda {
+	height: 110px;
+	width: 190px;
+	margin-top: 40px;
+	margin-left: 160px; 
+	float: left;
+	text-align: center;
+}
+
+#logotipo_mapa {
+	height: 70px;
+	width: 170px;
+}
+
+#mapa_centro {
+	height: 50px;
+	width: 180px;
+	padding-top: 25px;
+	margin-left: 43%;
+}
+
+#mapa_direita {
+	height: 50px;
+	width: 150px;
+	margin-top: -48px;
+	margin-right: 20%;
+	float: right;
+}
+
+.lista_mapa {
+	font-family: 'Helvetica';
+	font-size: 14px;
+}
+
+div ul li:first-child {
+	color: gray;
+}
+
+/*Linha vermelha entre o footer e o mapa*/
+hr {
+	height: 2px;
+	margin-top: 5px;
+	margin-bottom: 2px;
+	border-color: red;
+	background-color: red;
+}
+
+#rodape {
+	height: 30px;
+	width: 100%;
+	border-top: 1px solid red;
+	padding-top: 13px;
+	text-align: center;
+	font-family: 'Helvetica';
+	font-size: 14px;
+	background-color: #3e424b;
+	color: white;	
+}
